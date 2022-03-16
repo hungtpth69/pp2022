@@ -58,3 +58,4 @@ cid = input ("\nCourse id showing students'marks in the course: ")
 if cid in d:
         for tups in d [cid]:
             print (f"Student {tups[0]} got {tups [1]} marks")
+            
